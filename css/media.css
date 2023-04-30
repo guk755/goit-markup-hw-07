@@ -152,6 +152,29 @@
     height: 88px;
   }
 
+  .buttons-products {
+    padding-top: 64px;
+    padding-bottom: 96px;
+  }
+
+  .buttons-list {
+    margin-bottom: 64px;
+    justify-content: center;
+    gap: 24px;
+  }
+
+  .buttons-btn {
+    padding: 12px 24px 12px 24px;
+  }
+
+  .products-list {
+    gap: 72px 24px;
+  }
+
+  .products-item {
+    flex-basis: calc((100% - 24px) / 2);
+  }
+
   .footer-logo-wrap {
     margin-right: 24px;
     align-items: start;
@@ -277,6 +300,23 @@
 
   .team-list {
     gap: 24px;
+  }
+
+  .buttons-products {
+    padding-top: 100px;
+    padding-bottom: 120px;
+  }
+
+  .buttons-list {
+    margin-bottom: 72px;
+  }
+
+  .products-list {
+    gap: 48px 24px;
+  }
+
+  .products-item {
+    flex-basis: calc((100% - 48px) / 3);
   }
 
   .footer {

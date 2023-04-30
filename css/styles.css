@@ -362,10 +362,13 @@ button {
   max-width: 264px;
 }
 
+.team-wrap {
+  padding: 32px 16px 32px 16px;
+}
+
 .team-title {
   text-align: center;
   color: var(--second-title-color);
-  margin-top: 32px;
   margin-bottom: 8px;
 }
 
@@ -381,7 +384,6 @@ button {
   display: flex;
   justify-content: center;
   gap: 24px;
-  padding-bottom: 32px;
 }
 
 .team-item-soc {
@@ -459,14 +461,19 @@ button {
 /*------------------BUTTONS-PRODUCTS-------------------*/
 
 .buttons-products {
-  padding-top: 96px;
+  /* padding-top: 96px; */
+  padding-top: 48px;
+  padding-bottom: 48px;
 }
 
 .buttons-list {
-  margin-bottom: 72px;
+  /* margin-bottom: 72px; */
+  margin-bottom: 48px;
   display: flex;
-  justify-content: center;
-  gap: 24px;
+  flex-wrap: wrap;
+  /* justify-content: center; */
+  /* gap: 24px; */
+  gap: 16px 24px;
 }
 
 .buttons-btn {
@@ -481,7 +488,8 @@ button {
   color: #4d5ae5;
   background-color: #f4f4fd;
   cursor: pointer;
-  padding: 12px 24px 12px 24px;
+  /* padding: 12px 24px 12px 24px; */
+  padding: 8px 16px 8px 16px;
   border: 1px solid #e7e9fc;
   border-radius: 4px;
   transition: background-color var(--std-hover-trans),
@@ -502,12 +510,13 @@ button {
 .products-list {
   display: flex;
   flex-wrap: wrap;
-  column-gap: 24px;
-  row-gap: 48px;
+  gap: 48px;
+  /* column-gap: 24px; */
+  /* row-gap: 48px; */
 }
 
 .products-item {
-  width: calc((100% - 48px) / 3);
+  /* width: calc((100% - 48px) / 3); */
 }
 
 .products-item-link {
